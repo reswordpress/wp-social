@@ -187,7 +187,7 @@ if($message_provider == 'show'){?>
 										<div class="setting-label-wraper">
 											<label class="setting-label" for="<?php echo $keyTypeAll;?>_appid"><?php echo __('App ID - <em>(Required)</em>', 'wslu-social-login');?> </label>
 										</div>
-										<input placeholder="741888455955744" name="xs_social[<?php echo $keyTypeAll;?>][id]" type="text" id="<?php echo $keyTypeAll;?>_appid" value="<?php echo esc_html(isset($return_data[$keyTypeAll]['id']) ? $return_data[$keyTypeAll]['id'] : '');?>" class="regular-text">
+										<input placeholder="7418884555955744" name="xs_social[<?php echo $keyTypeAll;?>][id]" type="text" id="<?php echo $keyTypeAll;?>_appid" value="<?php echo esc_html(isset($return_data[$keyTypeAll]['id']) ? $return_data[$keyTypeAll]['id'] : '');?>" class="regular-text">
 										</th>
 									</tr>
 									<tr>
@@ -195,7 +195,7 @@ if($message_provider == 'show'){?>
 										<div class="setting-label-wraper">
 											<label class="setting-label" for="<?php echo $keyTypeAll;?>_secret"><?php echo __('App Secret - <em>(Required)</em>', 'wslu-social-login');?></label>
 										</div>
-										<input placeholder="32fd74bcaacf588c4572946f201eee8e" name="xs_social[<?php echo $keyTypeAll;?>][secret]" type="text" id="<?php echo $keyTypeAll;?>_secret" value="<?php echo esc_html(isset($return_data[$keyTypeAll]['secret']) ? $return_data[$keyTypeAll]['secret'] : '');?>" class="regular-text"></th>
+										<input placeholder="32fd74bcaacf588c4572946sef201eee8e" name="xs_social[<?php echo $keyTypeAll;?>][secret]" type="text" id="<?php echo $keyTypeAll;?>_secret" value="<?php echo esc_html(isset($return_data[$keyTypeAll]['secret']) ? $return_data[$keyTypeAll]['secret'] : '');?>" class="regular-text"></th>
 									</tr>
 								</tbody>
 							</table>
